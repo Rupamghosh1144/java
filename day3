@@ -1,1 +1,44 @@
 
+// import java.util.Scanner;
+
+// public class Main {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("Enter no of courses: ");
+//         int n = sc.nextInt();
+        
+//         if (n <= 0) {
+//             System.out.println("Invalid range");
+//             return;
+//         }
+        
+//         sc.nextLine();
+        
+//         String arr[] = new String[n];
+//         System.out.println("Enter course names: ");
+        
+//         for (int i = 0; i < n; i++) {
+//             arr[i] = sc.nextLine();
+//         }
+        
+//         System.out.println("Enter the course to be searched: ");
+//         String src = sc.nextLine();
+
+//         boolean found = false;
+        
+//         for (int i = 0; i < n; i++) {
+//             if (arr[i].equals(src)) {
+//                 System.out.println(src + " course is available");
+//                 found = true;
+//                 break; 
+//             }
+//         }
+
+//         if (!found) {
+//             System.out.println(src + " course is not available");
+//         }
+        
+//         sc.close();
+//     }
+// }
+
