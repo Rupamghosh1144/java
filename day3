@@ -37,6 +37,104 @@
 //         if (!found) {
 //             System.out.println(src + " course is not available");
 //         }
+
+
+
+
+// import java.util.Scanner;
+// public class Main{
+//     public static void main(String[] args){
+//         Scanner sc=new Scanner(System.in);
+//         double total=0;
+//         double cost=0;
+//         char ref,code,cir;
+//         System.out.print("Enter the no of ticket:");
+//         int ticket=sc.nextInt();
+//         if(ticket<=5 || ticket>=40){
+//             System.out.println("Minimum of 5 and Maximum of 40 Tickets");
+//             return;
+//         }
+//         System.out.print("Do you want refreshment:");
+//         ref=sc.next().charAt(0);
+//         System.out.print("Do you have coupon code:");
+//         code=sc.next().charAt(0);
+//         System.out.print("Enter the circle:");
+//         cir=sc.next().charAt(0);
+//         if(cir=='k'){
+//             cost=75*ticket;
+//         }
+//         else if(cir=='q'){
+//             cost=150*ticket;
+//         }
+//         else{
+//             System.out.println("Invalid Input");
+//         }
+//       total=cost;
+//         if(ticket>=20){
+//             cost = cost - ((0.1) * cost);
+            
+//         }total = cost;
+//         if(code=='y'){
+//             total=cost - ((0.02) * cost);
+//         }
+//         if(ref=='y'){
+//             total+=(ticket*50);
+//         }else{
+//             total=cost;
+//         }
+        
+//         System.out.printf("Ticket cost:%.2f", total);
+//     }
+// }
+
+
+import java.util.Scanner;
+// public class Main{
+//     public static void main(String[] args){
+//         Scanner sc=new Scanner(System.in);
+//         System.out.print("Enter the month:");
+//         int mon=sc.nextInt();
+        
+//         if(mon>12){
+//             System.out.println("Invalid Input");
+//         }else{
+//             if(mon==12||mon==1||mon==2){
+//                 System.out.println("Winter");
+//             }
+//             else if(mon==3||mon==4||mon==5){
+//                 System.out.println("Spring");
+//             }
+//             else if(mon==6||mon==7||mon==8){
+//                 System.out.println("Summer");
+//             }
+//             else if(mon==9||mon==10||mon==11){
+//                 System.out.println("Autumn");
+//             }
+//             }
+            
+//         }
+// }
+
+
+
+// public class Main{
+//     public static void main(String[] args){
+//         Scanner sc=new Scanner(System.in);
+//         int arr[]=new int[4];
+//         for(int i=0;i<4;i++){
+//             arr[i]=sc.nextInt();
+//         }
+//         int sum=0;
+//         for(int i=0;i<4;i++){
+//             sum=sum+arr[i];
+//         }
+//         if(sum%5==0 || sum%3==0 ||sum%7==0){
+//             System.out.println("lucky number");
+//         }else{
+//             System.out.println("not a lucky number");
+//         }
+//     }
+// }
         
 //         sc.close();
 //     }
