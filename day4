@@ -1,0 +1,60 @@
+//not divisible by 4 and sum of then and then minus from which are divisible by 4
+import java.util.Scanner;
+// public class Main
+// {
+// 	public static void main(String[] args) {
+// 		Scanner sc=new Scanner(System.in);
+// 		System.out.print("n: ");
+// 		int n=sc.nextInt();
+// 		System.out.print("m: ");
+// 		int m=sc.nextInt();
+// 	    int sum=0;
+// 	    for(int i=n;i<=m;i++){
+// 	        if(i%4==0){
+// 	            sum=sum+i;
+// 	        }
+// 	    }
+// 	    int sum2=0;
+// 	    for(int i=0;i<=m;i++){
+// 	        if(i%4!=0){
+// 	            sum2=sum2+i;
+// 	        }
+// 	    }
+// 	    System.out.print(sum2-sum);
+
+		
+// 	}
+// }
+
+
+
+
+//in the array print the 2nd highest odd place number and 2nd highest even place number then add them
+
+
+// import java.util.Arrays;
+// public class Main{
+//     public static void main(String[] args){
+//         Scanner sc=new Scanner(System.in);
+//         int arr[]=new int[6];
+//         for(int i=0;i<6;i++){
+//             arr[i]=sc.nextInt();
+//         }
+//         int j=0;
+//         int k=0;
+//         int arr_even[]=new int[3];
+//         int arr_odd[]=new int[3];
+//         for(int i=0;i<6;i++){
+//             if(i%2==0){
+//                 arr_even[j++]=arr[i];
+//             }else{
+//                 arr_odd[k++]=arr[i];
+//             }
+//         }
+//         Arrays.sort(arr_odd);
+//         Arrays.sort(arr_even);
+//         System.out.print(arr_even[1]+arr_odd[1]);
+        
+        
+//     }
+// }
