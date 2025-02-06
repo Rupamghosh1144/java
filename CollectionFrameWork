@@ -1,0 +1,77 @@
+/******************************************************************************
+
+                            Online Java Compiler.
+                Code, Compile, Run and Debug java program online.
+Write your code in this editor and press "Run" button to execute it.
+
+*******************************************************************************/
+import java.util.*;
+public class Main
+{
+    public static void arrayl(){
+        ArrayList<Integer> l=new ArrayList<>();
+        l.add(1);
+        l.add(2);
+        System.out.println(l.get(0));
+        l.add(6);
+        System.out.println(l);
+        l.set(1,20);
+        System.out.println(l);
+    }
+    static void stack(){
+        Stack<String> st=new Stack<>();
+        st.push("R");
+        st.push("U");
+        st.push("P");
+        st.push("A");
+        System.out.println(st);
+        System.out.println(st.peek());
+        st.pop();
+        System.out.println(st);
+        System.out.println(st.size());
+    }
+    static void priority(){
+        PriorityQueue<Integer> p=new PriorityQueue<>(); //by default it is priority in minimum value
+        PriorityQueue<Integer> q=new PriorityQueue<>(Comparator.reverseOrder());  //Comparator.reverseOrder is then give the priority in the maxmimum values
+        p.add(4);
+        p.add(28);
+        p.add(1);
+        p.add(89);
+        System.out.println(p.peek());
+        System.out.println(p);
+        p.add(32);
+        p.poll();
+        System.out.println(p.peek());
+        System.out.println(p);
+    }
+    static void dque(){
+        Deque<Integer> dq=new ArrayDeque<>();
+        dq.addFirst(1);
+        dq.addFirst(2);
+        System.out.println(dq);
+        dq.addLast(3);
+        dq.addLast(4);
+        System.out.println(dq);
+        dq.pollFirst();
+        System.out.println(dq);
+        }
+    static void hash(){
+        HashSet<Integer> hs=new HashSet<>();
+        hs.add(1);
+        hs.add(78);
+        hs.add(56);
+        hs.add(2);
+        System.out.println(hs);
+        hs.remove(56);
+        System.out.println(hs);
+        System.out.println(hs.contains(2));
+        System.out.println(hs.size());
+    }
+	public static void main(String[] args) {
+		//arrayl();
+		//stack();
+		//priority();
+		//dque();
+		//hash();
+	}
+}
